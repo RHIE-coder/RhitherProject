@@ -1,2 +1,5 @@
 # RhitherProject
-Coin/Token Economy, NFT, DeFi, DID
+ - Coin/Token Economy
+ - NFT
+ - DeFi
+ - DID
