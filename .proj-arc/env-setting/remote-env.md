@@ -95,4 +95,7 @@ wget --version
 sudo apt install vim
 ```
 
-
+#### tree
+```
+sudo apt-get install tree
+```

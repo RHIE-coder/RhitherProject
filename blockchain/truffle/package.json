@@ -1,0 +1,21 @@
+{
+  "name": "truffle-workspace",
+  "version": "1.0.0",
+  "description": "dev smart contract using truffle framework",
+  "main": "index.js",
+  "scripts": {
+    "listen": "npx ganache",
+    "deploy": "npx truffle migrate --reset"
+  },
+  "keywords": [
+    "ethereum",
+    "truffle",
+    "ganache"
+  ],
+  "author": "rhie-coder",
+  "license": "MIT",
+  "devDependencies": {
+    "ganache": "^7.1.0",
+    "truffle": "^5.5.14"
+  }
+}
