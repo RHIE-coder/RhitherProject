@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-contract SimpleApp {
+contract Simple {
     uint256 private _num;
 
     function getNum() public view returns(uint256) {

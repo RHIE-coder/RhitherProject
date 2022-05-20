@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "listen": "npx ganache",
-    "deploy": "npx truffle migrate --reset"
+    "deploy": "npx truffle migrate --reset --verbose-rpc"
   },
   "keywords": [
     "ethereum",
