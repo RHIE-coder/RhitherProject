@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { mainFunc} from "../../services/api/nft"
+import { mainFunc} from "../../services/api/ether-rpc-requester"
 const router = Router();
 
 

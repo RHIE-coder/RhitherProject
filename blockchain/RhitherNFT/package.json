@@ -57,6 +57,7 @@
       "all": true
    },
    "dependencies": {
+      "axios": "^0.27.2",
       "express": "^4.18.1",
       "sqlite3": "^5.0.8",
       "typeorm": "^0.3.6",

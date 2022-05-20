@@ -1,3 +1,3 @@
 export default {
-    server_port : 3000,
+    server_port : 3002,
 }
