@@ -96,8 +96,19 @@ geth --networkid 15 --nodiscover --maxpeers 0 --datadir data --http --allow-inse
 
 
 ```sh
-geth --datadir data --http --http.api personal,eth,net,web3 --dev --allow-insecure-unlock --unlock e01b1426a5606213935a62004860081919c441be --keystore data/keystore --password ./miner.txt --rpc.allow-unprotected-txs console
+geth --datadir data --http --http.api personal,eth,net,web3 --dev --allow-insecure-unlock --unlock 13939699b4bcb04e09f1929a8c01cb30bfd5a369 --keystore data/keystore --password ./miner.txt --rpc.allow-unprotected-txs console
 ```
+
+ - test
+ ```
+geth --datadir data --http --http.api personal,eth,net,web3 --dev --allow-insecure-unlock --unlock 70153a8b8b6d9e55a38a5f27cc96bac1e78ee3a6 --keystore data/keystore --password ./miner.txt --rpc.allow-unprotected-txs console
+```
+ - test
+```
+miner.setEtherbase(eth.accounts[1])
+```
+------
+
 As we can see the output text in terminal, we will get network(chainid=15) and http server(endpoint=127.0.0.1:8545)
 
 geth --datadir data --http --http.api personal,eth,net,web3 --dev --unlock cf10e37992f9e35fa98b918b67c007cee150761d --keystore data/keystore --password ./miner.txt --verbosity 5 console
@@ -136,6 +147,13 @@ personal.unlockAccount(eth.accounts[1])
 
 ```sh
 eth.sendTransaction({from: eth.accounts[1],to: eth.accounts[2], value: "2000000000000000000"})
+```
+
+ - test
+
+ 
+```sh
+eth.sendTransaction({from: eth.accounts[1],to: eth.accounts[0], value: "2000000000000000000"})
 ```
 
  - (6) check balances

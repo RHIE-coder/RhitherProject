@@ -1,7 +1,9 @@
 import Web3 from "web3";
 import * as fs from "fs/promises";
 import * as path from "path";
-
+// NEED : "esModuleInterop": true,                             
+/* Emit additional JavaScript to ease support for importing CommonJS modules. 
+This enables `allowSyntheticDefaultImports` for type compatibility. */
 interface ContractHandlerOptions {
     url?:string;
     contractAddress:string;
